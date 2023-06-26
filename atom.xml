@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://murray04.github.io</id>
+    <title>My blog</title>
+    <updated>2023-06-26T03:35:05.626Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://murray04.github.io"/>
+    <link rel="self" href="https://murray04.github.io/atom.xml"/>
+    <subtitle>Research details</subtitle>
+    <logo>https://murray04.github.io/images/avatar.png</logo>
+    <icon>https://murray04.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, My blog</rights>
+    <entry>
+        <title type="html"><![CDATA[[Project] Real-world raw VSR]]></title>
+        <id>https://murray04.github.io/post/project-real-world-raw-vsr/</id>
+        <link href="https://murray04.github.io/post/project-real-world-raw-vsr/">
+        </link>
+        <updated>2023-06-26T03:10:41.000Z</updated>
+        <content type="html"><![CDATA[<p>主要是刷点，考虑用transformer结构。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Project] Light field diffusion model]]></title>
+        <id>https://murray04.github.io/post/project-light-field-diffusion-model/</id>
+        <link href="https://murray04.github.io/post/project-light-field-diffusion-model/">
+        </link>
+        <updated>2023-06-25T02:36:27.000Z</updated>
+        <content type="html"><![CDATA[<p>【动机】开发diffusion在LF应用的潜力，分为两部分：无条件生成和有条件生成 (LF spatial SR和angular SR，后者意义更大，可以缓解LF采数据困难的问题)。</p>
+<p>【实现出发点】启发于CVPR23的PVDM，我们打算使用类stable diffusion的方式: 先编码到隐空间，再在隐空间上做diffusion。</p>
+<p>【目前进度】<br>
+截至6.25 都在进行5* 5 * 32 * 32无条件生成的尝试。<br>
+结果是空间信息丢失较大，生成结果存在一些角度信息。<br>
+<strong>（降采样用了Avgpool，改成pixelunshuffle排查是否是这个原因）</strong></p>
+<p>准备尝试有条件生成，待讨论实现。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://murray04.github.io/post/hello-gridea/</id>
+        <link href="https://murray04.github.io/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://gridea.dev/">Gridea 主页</a><br>
+<a href="https://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii!</p>
+<p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+</feed>
